@@ -1,4 +1,10 @@
-
+/**
+ * <p>
+ * This class will have a parameter and recursive method that raturns to the main
+ * </p>
+ * @author Bellindton
+ *
+ */
 public class assign2 {
 
 	public static void main(String[] args) {
@@ -7,7 +13,13 @@ public class assign2 {
 		Integer nth  = Recursion(number);
 		System.out.println("The " + number+"th term of the Fibonacci sequence is "+nth+".");
 	}
-//Recursion Function
+/**
+ 
+ * This method take the number parameter and return the nth to main
+ * 
+ * @param numb from the Recursion method.
+ * @return returns the nth number to main
+ */
 	public static  Integer Recursion(Integer numb){
 		if(numb == 0){
 			return 0;
